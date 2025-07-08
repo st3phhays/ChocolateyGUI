@@ -310,6 +310,12 @@
     <Resource Include="..\..\CREDITS.md">
       <Link>Resources\CREDITS.md</Link>
     </Resource>
+    <Resource Include="..\..\CREDITS.json">
+      <Link>Resources\CREDITS.json</Link>
+    </Resource>
+    <Resource Include="..\..\CREDITS.pdf">
+      <Link>Resources\CREDITS.pdf</Link>
+    </Resource>
     <None Include="..\ChocolateyGuiRules.ruleset">
       <Link>ChocolateyGuiRules.ruleset</Link>
     </None>

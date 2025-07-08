@@ -63,6 +63,13 @@ namespace ChocolateyGui.Common.Windows.ViewModels
         public string Credits
             => ResourceReader.GetFromResources(GetType().Assembly, "ChocolateyGui.Resources.CREDITS.md");
 
+        // Need to confirm if these are needed. Commenting out for now.
+        // public string CreditsJson
+        //     => ResourceReader.GetFromResources(GetType().Assembly, "ChocolateyGui.Resources.CREDITS.json");
+
+        // public string CreditsPdf
+        //     => ResourceReader.GetFromResources(GetType().Assembly, "ChocolateyGui.Resources.CREDITS.pdf");
+
         public string VersionNumber => _versionNumberProvider.Version;
 
         public BindableCollection<SourceViewModel> Sources { get; set; }
