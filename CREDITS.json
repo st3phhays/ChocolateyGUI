@@ -3,8 +3,8 @@
     "isPrivate": false,
     "link": "https://github.com/chocolatey/ChocolateyGUI",
     "licenseName": "LICENSE.txt",
-    "licenseLink": "https://github.com/chocolatey/ChocolateyGUI/blob/e95daedb075528fc2df806a4a73024e5195bd397/LICENSE.txt",
-    "version": "2.0.0",
+    "licenseLink": "https://github.com/chocolatey/ChocolateyGUI/blob/88cb4f2886c956615974cbd9d1ec11e4a7a316db/LICENSE.txt",
+    "version": "2.1.1",
     "dependencies": [
         {
             "name": "Fizzler",
@@ -21,11 +21,11 @@
         {
             "name": "Chocolatey CLI / Chocolatey.Lib",
             "link": "https://github.com/chocolatey/choco",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "licenses": [
                 {
                     "type": "Apache-2.0",
-                    "link": "https://github.com/chocolatey/choco/blob/38b5e5ce3b083acf591f988243e9d8e8ccbfb832/LICENSE",
+                    "link": "https://github.com/chocolatey/choco/blob/a500fc573954494893dad503317ad676759d186a/LICENSE",
                     "name": "LICENSE"
                 }
             ]
